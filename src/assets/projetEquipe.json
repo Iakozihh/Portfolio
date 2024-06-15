@@ -6,7 +6,7 @@
       "description": "Le Crazyno est un projet développé à 4 en méthode Agile. Il contient 6 jeux, des Leaderboards, des succès à réaliser et une gestion de compte admin. Vous pouvez y accéder sur crazyno.games",
       "technoUsed": "Le site est développé en HTML/CSS, php et Tailwind CSS. Il dispose d'une base de données SQL",
       "imageFormat": "paysage",
-      "accroche": "Crazyno est un site web de Casino avec de la monnaie fictive, il y a 6 jeux et des classements pour battre les records de ses amis"
+      "accroche": "Crazyno est un site web de Casino avec de la monnaie fictive, il y a 6 jeux et des classements pour battre les records de ses amis."
     },
     {
       "id": 101,
