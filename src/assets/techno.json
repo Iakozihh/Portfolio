@@ -1,0 +1,154 @@
+{
+  "technologies": [
+    {
+      "category": "framework",
+      "name": "React",
+      "image": "https://skillicons.dev/icons?i=react"
+    },
+    {
+      "category": "framework",
+      "name": "Vue.js",
+      "image": "https://skillicons.dev/icons?i=vue"
+    },
+    {
+      "category": "framework",
+      "name": "Vite",
+      "image": "https://skillicons.dev/icons?i=vite"
+    },
+    {
+      "category": "framework",
+      "name": "TailwindCSS",
+      "image": "https://skillicons.dev/icons?i=tailwindcss"
+    },
+    {
+      "category": "framework",
+      "name": "Symfony",
+      "image": "https://skillicons.dev/icons?i=symfony"
+    },
+    {
+      "category": "langage",
+      "name": "Python",
+      "image": "https://skillicons.dev/icons?i=python"
+    },
+    {
+      "category": "langage",
+      "name": "C",
+      "image": "https://skillicons.dev/icons?i=c"
+    },
+    {
+      "category": "langage",
+      "name": "Java",
+      "image": "https://skillicons.dev/icons?i=java"
+    },
+    {
+      "category": "langage",
+      "name": "Kotlin",
+      "image": "https://skillicons.dev/icons?i=kotlin"
+    },
+    {
+      "category": "langage",
+      "name": "HTML",
+      "image": "https://skillicons.dev/icons?i=html"
+    },
+    {
+      "category": "langage",
+      "name": "CSS",
+      "image": "https://skillicons.dev/icons?i=css"
+    },
+    {
+      "category": "langage",
+      "name": "PHP",
+      "image": "https://skillicons.dev/icons?i=php"
+    },
+    {
+      "category": "langage",
+      "name": "JavaScript",
+      "image": "https://skillicons.dev/icons?i=javascript"
+    },
+    {
+      "category": "langage",
+      "name": "TypeScript",
+      "image": "https://skillicons.dev/icons?i=typescript"
+    },
+    {
+      "category": "database",
+      "name": "MySQL",
+      "image": "https://skillicons.dev/icons?i=mysql"
+    },
+    {
+      "category": "database",
+      "name": "MongoDB",
+      "image": "https://skillicons.dev/icons?i=mongodb"
+    },
+    {
+      "category": "tool",
+      "name": "Git",
+      "image": "https://skillicons.dev/icons?i=git"
+    },
+    {
+      "category": "tool",
+      "name": "GitLab",
+      "image": "https://skillicons.dev/icons?i=gitlab"
+    },
+    {
+      "category": "tool",
+      "name": "GitHub",
+      "image": "https://skillicons.dev/icons?i=github"
+    },
+    {
+      "category": "tool",
+      "name": "Trello",
+      "image": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+    },
+    {
+      "category": "tool",
+      "name": "Linux",
+      "image": "https://skillicons.dev/icons?i=linux"
+    },
+    {
+      "category": "tool",
+      "name": "Ubuntu",
+      "image": "https://skillicons.dev/icons?i=ubuntu"
+    },
+    {
+      "category": "tool",
+      "name": "Windows",
+      "image": "https://skillicons.dev/icons?i=windows"
+    },
+    {
+      "category": "tool",
+      "name": "Vmware",
+      "image": "https://e7.pngegg.com/pngimages/965/159/png-clipart-vmware-workstation-player-computer-icons-computer-file-scalable-graphics-text-orange.png"
+    },
+    {
+      "category": "tool",
+      "name": "Raspberry Pi",
+      "image": "https://skillicons.dev/icons?i=raspberrypi"
+    },
+    {
+      "category": "tool",
+      "name": "Power BI",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1200px-New_Power_BI_Logo.svg.png"
+    },
+    {
+      "category": "tool",
+      "name": "Firebase",
+      "image": "https://skillicons.dev/icons?i=firebase"
+    },
+    {
+      "category": "tool",
+      "name": "Figma",
+      "image": "https://skillicons.dev/icons?i=figma"
+    },
+    {
+      "category": "tool",
+      "name": "Aseprite",
+      "image": "https://community.aseprite.org/uploads/default/original/2X/6/66c33251292331d29585d32632c3870651b66e01.png"
+    },
+    {
+      "category": "tool",
+      "name": "Adobe Premiere Pro",
+      "image": "https://skillicons.dev/icons?i=premiere"
+    }
+  ]
+}

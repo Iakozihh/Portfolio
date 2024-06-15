@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {
+            "name": "Réaliser un développement d'application",
+            "id": 1,
+            "color":"#C00000",
+            "colorChildren":"#FF9999"
+        },
+        {
+            "name": "Optimiser des applications informatiques",
+            "id": 2,
+            "color":"#F79152",
+            "colorChildren":"#F9B589"
+        },
+        {
+            "name": "Conduire un projet",
+            "id": 3,
+            "color":"#002060",
+            "colorChildren":"#8EB4E3"
+        },
+        {
+            "name": "Travailler dans une équipe informatique",
+            "id": 4,
+            "color":"#0C6C33",
+            "colorChildren":"#72DB9D"
+        }
+    ]
+}

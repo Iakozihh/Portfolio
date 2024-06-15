@@ -1,0 +1,36 @@
+{
+  "projets": [
+    {
+      "id": 0,
+      "name": "EcoClicker",
+      "description": "EcoClicker est un projet que j'ai entièrement développé seul (game design, musique et sprites). Je l'ai réalisé après ma première année au BUT informatique. Le but est de faire pousser un arbre en cliquant dessus pour gagner de l'argent, on peut ensuite acheter des personnages pour gagner plus d'argent à chaque clic. Au fil du gameplay le jeu devient de plus en plus étrange...",
+      "technoUsed": "Le jeu est développé en Java et dispose d'une base de données pour garder sa progression",
+      "imageFormat": "paysage",
+      "accroche": "EcoClicker est un jeu de type Clicker. Le but est de faire pousser un arbre en cliquant dessus."
+    },
+    {
+      "id": 1,
+      "name": "Pokemap",
+      "description": "Pokemap est un jeu mobile.  À la manière de Pokémon Go, des Pokémons apparaissent autour de vous et il faut les attraper, s'ils sont trop loin il faut marcher dans leur direction pour pouvoir les attraper. On peut ensuite consulter les Pokémons dans une liste.",
+      "technoUsed": "L'application est développé en Kotlin, j'ai également utilisé deux API : pokeApi et Google map. Il y a également un système de compte et d'envoi de notification grâce à Firebase.",
+      "imageFormat": "portrait",
+      "accroche": "Pokemap est un application mobile où il faut attraper les Pokémons qui se trouvent autour de nous."
+    },
+    {
+      "id": 2,
+      "name": "KillerChooser",
+      "description": "KillerChooser est une application mobile permettant d'assigner une cible à un assassin, chaque joueur aura une cible à éliminer en lui faisant réaliser des actions variées mais attention chaque joueur est également la cible de quelqu'un d'autre !",
+      "technoUsed": "L'application est développée en Kotlin.",
+      "imageFormat": "portrait",
+      "accroche": "KillerChooser est une application mobile permettant d'assigner une cible différente à chaque joueur."
+    },
+    {
+      "id": 3,
+      "name": "ExtranetAT",
+      "description": "Projet réalisé en stage au sein de l'entreprise Divy. Il s'agit d'un extranet permettant aux clients d'avoir un suivi de leurs demandes d'assistance. L'application est en lien avec un ERP et un CRM.",
+      "technoUsed": "L'application est développée avec les langages, le Framework de l'éditeur et Typescript. Elle contient une base de données SQL.",
+      "imageFormat": "paysage",
+      "accroche": "Projet de stage, extranet déstiné au support de l'entreprise et à la création de ticket."
+    }
+  ]
+}
