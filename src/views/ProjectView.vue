@@ -16,12 +16,12 @@ if (props.id < 100) {
 <template>
   <div class="divProj flex flex-col">
     <div class="flex flex-row justify-center items-center">
-      <img :src="'../assets/images/' + projet.name + 'Icon.png'" class="photo h-24 mr-4" />
+      <img :src="'../src/assets/images/' + projet.name + 'Icon.png'" class="photo h-24 mr-4" />
       <p class="text-3xl tracking-in-expand">{{ projet.name }}</p>
     </div>
     <div class="flex flex-row m-4">
       <img
-        :src="'../assets/images/' + projet.name + '.png'"
+        :src="'../src/assets/images/' + projet.name + '.png'"
         :class="{
           portrait: projet.imageFormat == 'portrait',
           paysage: projet.imageFormat == 'paysage'
@@ -35,7 +35,7 @@ if (props.id < 100) {
           loop
           autoplay
           muted
-          :src="'../assets/images/' + projet.name + 'Clip.mp4'"
+          :src="'../src/assets/images/' + projet.name + 'Clip.mp4'"
         ></video>
       </div>
     </div>
@@ -44,7 +44,7 @@ if (props.id < 100) {
   <img
     v-if="projet.name == 'Crazyroad'"
     class="w-full rounded-none mt-10"
-    :src="'../assets/images/' + projet.name + 'BandeDefilante.gif'"
+    :src="'../src/assets/images/' + projet.name + 'BandeDefilante.gif'"
   />
 </template>
 
