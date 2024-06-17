@@ -118,7 +118,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
     <div class="flex flex-row justify-center">
       <div class="divProjet">
         <i class="fa-solid fa-user"></i>
-        <h3>Projet personnel az</h3>
+        <h3>Projet personnel azz</h3>
         <div class="grid grid-cols-2 justify-items-center">
           <RouterLink
             v-for="p in projetsPerso"
