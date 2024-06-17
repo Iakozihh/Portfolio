@@ -22,6 +22,8 @@ const filteredItems = computed(() => {
 
 const date = new Date(2004, 3, 12)
 const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 1970)
+
+
 </script>
 
 <template>
