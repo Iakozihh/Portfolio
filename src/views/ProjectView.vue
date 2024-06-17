@@ -11,17 +11,27 @@ if (props.id < 100) {
 } else {
   projet.value = projetEquipe.projets[props.id - 100]
 }
+
+
+function getImageUrl(image){
+  return new URL(`../assets/images/${image}`,import.meta.url).href
+}
+
+const srcImageIcon = ref(getImageUrl(project.name+'Icon.png'))
+const srcImage = ref(getImageUrl(project.name+'.png'))
+const srcVideo = ref(getImageUrl(project.name+'Clip.mp4'))
+const srcBonus = ref(getImageUrl(project.name+'BandeDefilante.gif'))
 </script>
 
 <template>
   <div class="divProj flex flex-col">
     <div class="flex flex-row justify-center items-center">
-      <img :src="'../src/assets/images/' + projet.name + 'Icon.png'" class="photo h-24 mr-4" />
+      <img :src="srcImageIcon" class="photo h-24 mr-4" />
       <p class="text-3xl tracking-in-expand">{{ projet.name }}</p>
     </div>
     <div class="flex flex-row m-4">
       <img
-        :src="'../src/assets/images/' + projet.name + '.png'"
+        :src="srcImage"
         :class="{
           portrait: projet.imageFormat == 'portrait',
           paysage: projet.imageFormat == 'paysage'
@@ -35,7 +45,7 @@ if (props.id < 100) {
           loop
           autoplay
           muted
-          :src="'../src/assets/images/' + projet.name + 'Clip.mp4'"
+          :src="srcVideo"
         ></video>
       </div>
     </div>
@@ -44,7 +54,7 @@ if (props.id < 100) {
   <img
     v-if="projet.name == 'Crazyroad'"
     class="w-full rounded-none mt-10"
-    :src="'../src/assets/images/' + projet.name + 'BandeDefilante.gif'"
+    :src="srcBonus"
   />
 </template>
 
