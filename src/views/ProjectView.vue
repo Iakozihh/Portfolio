@@ -16,6 +16,7 @@ if (props.id < 100) {
 <template>
   <div class="divProj flex flex-col">
     <div class="flex flex-row justify-center items-center">
+      <img :src="new URL('../src/assets/images/' + projet.name + 'Icon.png',import.meta.url).href" class="photo h-24 mr-4" />
       <p class="text-3xl tracking-in-expand">{{ projet.name }}</p>
     </div>
     <div class="flex flex-row m-4">
