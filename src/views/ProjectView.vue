@@ -14,13 +14,13 @@ if (props.id < 100) {
 
 
 function getImageUrl(image){
-  return new URL(`../assets/images/${image}.png`,import.meta.url).href
+  return new URL(`../assets/images/${image}`,import.meta.url).href
 }
 
-const srcImageIcon = ref(getImageUrl(projet.name+'Icon'))
-const srcImage = ref(getImageUrl(projet.name+'.png'))
-const srcVideo = ref(getImageUrl(projet.name+'Clip.mp4'))
-const srcBonus = ref(getImageUrl(projet.name+'BandeDefilante.gif'))
+const srcImageIcon = ref(getImageUrl(projet.value.name+'Icon'))
+const srcImage = ref(getImageUrl(projet.value.name+'.png'))
+const srcVideo = ref(getImageUrl(projet.value.name+'Clip.mp4'))
+const srcBonus = ref(getImageUrl(projet.value.name+'BandeDefilante.gif'))
 </script>
 
 <template>
