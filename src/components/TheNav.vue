@@ -1,10 +1,10 @@
 <template>
   <nav>
-    <RouterLink class="text-xl font-bold" to="/">Vandamme Félix</RouterLink>
-    <div class="links">
-      <RouterLink class="link" to="/">Accueil</RouterLink>
-      <RouterLink class="link" to="/music">Musique</RouterLink>
-      <RouterLink class="link" to="/skills">Compétences</RouterLink>
+    <RouterLink class="text-xl max-sm:text-lg font-bold" to="/">Vandamme Félix</RouterLink>
+    <div class="links max-sm:flex-col">
+      <RouterLink class="link max-sm:text-xs" to="/">Accueil</RouterLink>
+      <RouterLink class="link max-sm:text-xs" to="/music">Musique</RouterLink>
+      <RouterLink class="link max-sm:text-xs" to="/skills">Compétences</RouterLink>
     </div>
   </nav>
 </template>

@@ -5,16 +5,18 @@
     <h1 class="text-6xl font-extralight tracking-in-expand">Musique</h1>
   </div>
 
-  <div class="grid grid-cols-4 m-20">
-    <div class="image-container">
-      <img
-        class="photo w-80 mb-20 swing-in-top-fwd"
-        src="../assets/images/musique/Fefan2024Denise.jpeg"
-      />
-      <img class="punaise" src="../assets/images/punaise-rouge.png" />
+  <div class="grid grid-cols-4 max-sm:grid-cols-1 m-20">
+    <div class="max-sm:hidden">
+      <div class="image-container">
+        <img
+          class="photo w-80 mb-20 swing-in-top-fwd"
+          src="../assets/images/musique/Fefan2024Denise.jpeg"
+        />
+        <img class="punaise" src="../assets/images/punaise-rouge.png" />
+      </div>
     </div>
     <div class="flex flex-col items-center mt-10 col-span-2">
-      <p>
+      <p class="max-sm:text-xs">
         Je fais du saxophone depuis mes 7 ans. Aujourd'hui, je fais partie de deux groupes de
         musiques : Denise and the Aliens et le Villeur'Brass Band et nous faisons régulièrement des
         concerts dans des bars ou à différents évenements comme la soirée d'intégration de Lyon 1 au
@@ -22,24 +24,26 @@
         les arrangements nous mêmes. Nous avons également fait des compositions originales.
       </p>
       <img class="w-72 m-10" src="../assets/images/musique/saxophone.png" />
-      <p>
+      <p class="max-sm:text-xs">
         Cette pratique m'a permis d'apprendre à travailler en groupe et à écouter les autres. J'ai
         également acquis des capacités d'improvisations. Mes deux groupes font partie d'une
         association nommé AMUSE.
       </p>
     </div>
 
-    <div class="image-container mt-56">
-      <img
-        class="photo swing-in-top-fwd w-80 h-auto"
-        src="../assets/images/musique/Transbo2023VBB.jpg"
-      />
-      <img class="punaise" src="../assets/images/punaise-bleue.png" />
+    <div class="max-sm:hidden">
+      <div class="image-container mt-56 ">
+        <img
+          class="photo swing-in-top-fwd w-80 h-auto"
+          src="../assets/images/musique/Transbo2023VBB.jpg"
+        />
+        <img class="punaise" src="../assets/images/punaise-bleue.png" />
+      </div>
     </div>
   </div>
 
   <div class="flex justify-center items-center">
-    <img class="h-96 mb-5 swing-in-top-fwd" src="../assets/images/musique/Zac2023VBB.jpg" />
+    <img class="h-96 max-sm:h-36 mb-5 swing-in-top-fwd" src="../assets/images/musique/Zac2023VBB.jpg" />
   </div>
 </template>
 

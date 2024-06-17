@@ -37,12 +37,12 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       <path fill="#d2f3d6" fill-opacity="1" d="M0,200L5000,288L5000,320L0,320Z"></path>
     </svg>
     <div
-      class="grid grid-cols-2 divide-gray-300 px-20 items-start lg:px-12"
+      class="grid grid-cols-2 max-sm:grid-cols-1 divide-gray-300 px-20 items-start"
       style="background-color: #d2f3d6"
     >
-      <div class="flex flex-col justify-center items-center my-10 mr-24">
+      <div class="flex flex-col justify-center items-center my-10 md:mr-24">
         <h2 class="mb-10">A propos de moi</h2>
-        <p>
+        <p class="max-sm:text-xs">
           Je m'appelle Félix Vandamme et j'ai {{ age }} ans. Je suis actuellement en 2ème année au
           BUT informatique de l'Université Claude Bernard Lyon 1. Je suis passioné par l'imagination
           de concepts de jeux-vidéos et de nouvelles mécaniques. J'ai commencé à coder au début du
@@ -54,9 +54,9 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
           <a class="lienInterne" href="#projet">(voir Projet)</a>.
         </p>
       </div>
-      <div class="flex flex-col justify-center items-center my-10 ml-24">
+      <div class="flex flex-col justify-center items-center my-10 md:ml-24">
         <h2 class="mb-10">Mes études</h2>
-        <p>
+        <p class="max-sm:text-xs">
           J'ai eu mon Bac général mention Très Bien avec les spécialités Mathématiquess et NSI (et
           Physique Chimie en première). Je suis ensuite entré au BUT informatique de Lyon 1 afin
           d'apprendre à développer des projets plus conséquents. En 2ème année, j'ai choisis le
@@ -105,7 +105,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       </button>
     </div>
     <hr class="mb-10" />
-    <div class="grid grid-cols-4 gap-5">
+    <div class="grid grid-cols-4 max-sm:grid-cols-2 gap-5">
       <div v-for="techno in filteredItems" :key="techno.name" class="flex flex-col items-center">
         <img class="h-12 swing-in-top-fwd" :src="techno.image" :alt="techno.name + ' Logo'" />
         <p>{{ techno.name }}</p>
@@ -115,11 +115,11 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
 
   <div id="projet">
     <h2>Projets</h2>
-    <div class="flex flex-row justify-center">
+    <div class="flex flex-row max-sm:flex-col justify-center">
       <div class="divProjet">
         <i class="fa-solid fa-user"></i>
         <h3>Projet personnel</h3>
-        <div class="grid grid-cols-2 justify-items-center">
+        <div class="grid grid-cols-2 max-sm:grid-cols-1 justify-items-center">
           <RouterLink
             v-for="p in projetsPerso"
             :key="p.id"
@@ -131,7 +131,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       <div class="divProjet">
         <i class="fa-solid fa-user-group"></i>
         <h3>Projet en équipe</h3>
-        <div class="grid grid-cols-2 justify-items-center">
+        <div class="grid grid-cols-2 max-sm:grid-cols-1 justify-items-center">
           <RouterLink
             v-for="p in projetsEquipe"
             :key="p.id"
@@ -145,7 +145,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
 
   <div class="grid grid-cols-3">
     <div class="flex justify-center">
-      <img class="h-96" src="../assets/images/home/contact.png" />
+      <img class="h-96 max-sm:hidden" src="../assets/images/home/contact.png" />
     </div>
     <div class="flex flex-col justify-center items-center my-10">
       <h2 class="mb-10">Me contacter</h2>
@@ -169,7 +169,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       </ul>
     </div>
     <div class="flex justify-center">
-      <img class="h-96" src="../assets/images/home/contact.png" />
+      <img class="h-96 max-sm:hidden" src="../assets/images/home/contact.png" />
     </div>
   </div>
 

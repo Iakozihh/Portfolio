@@ -13,16 +13,16 @@ const srcImage = ref(getImageUrl(props.project.name+'Icon'))
   <div
     class="buttonProj block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
   >
-    <div class="flex flex-row items-center">
+    <div class="flex flex-row max-sm:flex-col items-center">
       <img
         :src="srcImage"
-        class="h-12 mr-4 rounded"
+        class="h-12 mr-4 max-sm:mr-0 rounded"
       />
-      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+      <h5 class="mb-2 text-2xl max-sm:text-lg font-bold tracking-tight text-gray-900">
         {{ props.project.name }}
       </h5>
     </div>
-    <p class="font-normal text-gray-700 text-justify">
+    <p class="font-normal max-sm:text-xs text-gray-700 text-justify">
       {{ props.project.accroche }}
     </p>
   </div>
