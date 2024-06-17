@@ -27,8 +27,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
 </script>
 
 <template>
-  <div class="pt-96">
-  <div class="flex flex-col justify-center items-center">
+  <div class="flex flex-col justify-center items-center pt-36">
     <h1 class="text-6xl font-bold tracking-in-expand">Portfolio</h1>
     <p>Vandamme Félix</p>
   </div>
@@ -196,7 +195,6 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       fill="#014b28"
     ></path>
   </svg>
-</div>
 </template>
 
 <style scoped>
