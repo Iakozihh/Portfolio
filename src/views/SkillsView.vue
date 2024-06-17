@@ -25,7 +25,7 @@ const toggleSkill = (skill) => {
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center mb-12">
+  <div class="flex flex-col justify-center items-center mb-12 pt-12">
     <h1 class="text-6xl font-extralight tracking-in-expand">Compétences</h1>
   </div>
 
