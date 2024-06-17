@@ -16,7 +16,7 @@ const props = defineProps(['project'])
       </h5>
     </div>
     <p class="font-normal text-gray-700 text-justify">
-      {{ props.project.accroche }}a
+      {{ props.project.accroche }}
     </p>
   </div>
 </template>
