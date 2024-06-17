@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="flex flex-col justify-center items-center pt-36">
+  <div class="flex flex-col justify-center items-center pt-48">
     <h1 class="text-6xl font-extralight tracking-in-expand">Musique</h1>
   </div>
 
