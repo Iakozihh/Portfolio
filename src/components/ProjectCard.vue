@@ -1,5 +1,12 @@
 <script setup>
+import {ref} from 'vue'
 const props = defineProps(['project'])
+
+function getImageUrl(image){
+  return new URL(`../assets/images/${image}.png`,import.meta.url).href
+}
+
+const srcImage = ref(getImageUrl(props.project.name+'Icon'))
 </script>
 
 <template>
@@ -8,7 +15,7 @@ const props = defineProps(['project'])
   >
     <div class="flex flex-row items-center">
       <img
-        :src="new URL(`../assets/images/${props.project.name}Icon.png`,import.meta.url).href"
+        :src="srcImage"
         class="h-12 mr-4 rounded"
       />
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
