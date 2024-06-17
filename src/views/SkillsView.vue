@@ -58,7 +58,7 @@ const toggleSkill = (skill) => {
             Projet personnel : Jeu de type “clicker” réalisé en Java avec les connaissances acquises
             durant ma première année au BUT informatique.
           </p>
-          <img class="h-96" src="../assets/images/EcoClicker.png" />
+          <img class="h-96 max-sm:h-48" src="../assets/images/EcoClicker.png" />
         </div>
         <p>
           Durant mon stage de 2ème année au BUT, j'ai réalisé un extranet afin que les clients
@@ -106,7 +106,7 @@ const toggleSkill = (skill) => {
           graphes.
         </p>
         <div class="flex flex-col justify-center items-center">
-          <img class="h-96" src="../assets/images/SaeGraphe.png" />
+          <img class="h-96 max-sm:h-48" src="../assets/images/SaeGraphe.png" />
           <p>
             Application d'aide à la décision réalisé en java durant la première année du BUT
             informatique
@@ -148,7 +148,7 @@ const toggleSkill = (skill) => {
           cryptage et de hachage pour masquer des données.
         </p>
         <div class="flex flex-row max-sm:flex-col justify-center items-center">
-          <img class="h-96" src="../assets/images/SAEIntroSysteme.png" />
+          <img class="h-96 max-sm:h-48" src="../assets/images/SAEIntroSysteme.png" />
           <p>
             Projet de configuration d'une machine virtuelle et installation des outils de
             développement.
@@ -184,7 +184,7 @@ const toggleSkill = (skill) => {
           (Power BI).
         </p>
         <div class="flex flex-col justify-center items-center">
-          <img class="h-96" src="../assets/images/Crazymarket.png" />
+          <img class="h-96 max-sm:h-48" src="../assets/images/Crazymarket.png" />
           <p>Site web de gestion de liste de courses collaboratives réalisé en Symfony</p>
         </div>
         <p>
@@ -220,14 +220,14 @@ const toggleSkill = (skill) => {
         <p>Enfin, je sais évaluer les performances et mettre en oeuvre le suivi du projet.</p>
         <div class="flex flex-row justify-center items-center">
           <div class="flex flex-col items-center">
-            <img class="h-96 m-4" src="../assets/images/SaePoster.png" />
+            <img class="h-96 max-sm:h-48 m-4" src="../assets/images/SaePoster.png" />
             <p class="text-justify">
               Poster réalisé en équipe, il fallait creer un poster attirant l'attention, rapide à
               lire mais complet et argéable à la lecture.
             </p>
           </div>
           <div class="flex flex-col items-center">
-            <img class="h-96 m-4" src="../assets/images/SaeKafetKebab.png" />
+            <img class="h-96 max-sm:h-48 m-4" src="../assets/images/SaeKafetKebab.png" />
             <p>Premier site web responsive que j'ai développé.</p>
           </div>
         </div>
@@ -262,7 +262,7 @@ const toggleSkill = (skill) => {
           suivre l'avancée du projet et l'orienter selon les attentes du client (Trello, Teams).
         </p>
         <div class="flex flex-col justify-center items-center">
-          <img class="h-96" src="../assets/images/Crazyno.png" />
+          <img class="h-96 max-sm:h-48" src="../assets/images/Crazyno.png" />
           <p class="text-center">
             Page d’accueil d’un casino en ligne. Il a été développé en équipe en méthode AGILE
             durant la deuxième année de mon BUT informatique. C'est un des plus gros projets que
