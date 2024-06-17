@@ -17,7 +17,7 @@ function getImageUrl(image){
   return new URL(`../assets/images/${image}`,import.meta.url).href
 }
 
-const srcImageIcon = ref(getImageUrl(projet.value.name+'Icon'))
+const srcImageIcon = ref(getImageUrl(projet.value.name+'Icon.png'))
 const srcImage = ref(getImageUrl(projet.value.name+'.png'))
 const srcVideo = ref(getImageUrl(projet.value.name+'Clip.mp4'))
 const srcBonus = ref(getImageUrl(projet.value.name+'BandeDefilante.gif'))
