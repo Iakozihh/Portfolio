@@ -27,7 +27,7 @@ const srcBonus = ref(getImageUrl(projet.value.name+'BandeDefilante.gif'))
   <div class="divProj flex flex-col">
     <div class="flex flex-row justify-center items-center">
       <img :src="srcImageIcon" class="photo h-24 mr-4" />
-      <p class="text-3xl tracking-in-expand">{{ projet.name }}</p>
+      <p class="text-3xl tracking-in-expand mt-12">{{ projet.name }}</p>
     </div>
     <div class="flex flex-row m-4">
       <img
