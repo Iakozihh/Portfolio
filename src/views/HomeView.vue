@@ -27,7 +27,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center pt-36">
+  <div class="flex flex-col justify-center items-center pt-36 max-sm:pt-48">
     <h1 class="text-6xl font-bold tracking-in-expand">Portfolio</h1>
     <p>Vandamme Félix</p>
   </div>
