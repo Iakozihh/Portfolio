@@ -53,7 +53,7 @@ const toggleSkill = (skill) => {
           encore la programmation orientée objet. Je suis également en mesure de choisir une
           structure de données adaptée, documenter le code et le tester.
         </p>
-        <div class="flex flex-row justify-center items-center">
+        <div class="flex flex-row max-sm:flex-col justify-center items-center">
           <p>
             Projet personnel : Jeu de type “clicker” réalisé en Java avec les connaissances acquises
             durant ma première année au BUT informatique.
@@ -147,7 +147,7 @@ const toggleSkill = (skill) => {
           système font également partie de mes compétences. En effet, je connais des techniques de
           cryptage et de hachage pour masquer des données.
         </p>
-        <div class="flex flex-row justify-center items-center">
+        <div class="flex flex-row max-sm:flex-col justify-center items-center">
           <img class="h-96" src="../assets/images/SAEIntroSysteme.png" />
           <p>
             Projet de configuration d'une machine virtuelle et installation des outils de
