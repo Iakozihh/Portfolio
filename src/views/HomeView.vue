@@ -37,7 +37,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       <path fill="#d2f3d6" fill-opacity="1" d="M0,200L5000,288L5000,320L0,320Z"></path>
     </svg>
     <div
-      class="grid grid-cols-2 divide-gray-300 px-20 items-start lg:grid-cols-1"
+      class="grid grid-cols-2 divide-gray-300 px-20 items-start lg:px-12"
       style="background-color: #d2f3d6"
     >
       <div class="flex flex-col justify-center items-center my-10 mr-24">
