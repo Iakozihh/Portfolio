@@ -8,7 +8,7 @@ const props = defineProps(['project'])
   >
     <div class="flex flex-row items-center">
       <img
-        :src="'../assets/images/' + props.project.name + 'Icon.png'"
+        :src="new URL('../assets/images/' + props.project.name + 'Icon.png')"
         class="h-12 mr-4 rounded"
       />
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
