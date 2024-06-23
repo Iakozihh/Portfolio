@@ -23,14 +23,6 @@
       "technoUsed": "L'application est développée en Kotlin.",
       "imageFormat": "portrait",
       "accroche": "KillerChooser est une application mobile permettant d'assigner une cible différente à chaque joueur."
-    },
-    {
-      "id": 3,
-      "name": "ExtranetAT",
-      "description": "Projet réalisé en stage au sein de l'entreprise Divy. Il s'agit d'un extranet permettant aux clients d'avoir un suivi de leurs demandes d'assistance et des rapports de suivi associés. L'application est en lien avec un ERP et un CRM et et doit réponds aux contraintes de fonctionnement du flux d'assistance.",
-      "technoUsed": "L'application est développée avec les langages, le Framework de l'éditeur et Typescript. Elle contient une base de données SQL.",
-      "imageFormat": "paysage",
-      "accroche": "Projet de stage, extranet déstiné au support de l'entreprise et à la création de ticket."
     }
   ]
 }
