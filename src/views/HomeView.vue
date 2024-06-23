@@ -118,7 +118,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
     <div class="flex flex-row max-md:flex-col justify-center">
       <div class="divProjet">
         <i class="fa-solid fa-user"></i>
-        <h3>Projet personnel</h3>
+        <h3>Projets personnels</h3>
         <div class="grid grid-cols-2 max-md:grid-cols-1 justify-items-center">
           <RouterLink
             v-for="p in projetsPerso"
@@ -130,7 +130,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       </div>
       <div class="divProjet">
         <i class="fa-solid fa-user-group"></i>
-        <h3>Projet en équipe</h3>
+        <h3>Projets en équipe</h3>
         <div class="grid grid-cols-2 max-md:grid-cols-1 justify-items-center">
           <RouterLink
             v-for="p in projetsEquipe"
