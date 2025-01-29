@@ -31,6 +31,14 @@
       "technoUsed": "L'application est développée avec les langages, le Framework de l'éditeur et Typescript. Elle contient une base de données SQL.",
       "imageFormat": "paysage",
       "accroche": "Projet de stage, extranet déstiné au support de l'entreprise et à la création de ticket."
+    },
+    {
+      "id": 104,
+      "name": "HotQTE",
+      "description": "Hot QTE est un jeu basé sur des Quick Time Event. Chaque niveau est composé de plusieurs QTE (écrire un mot, cliquer sur le piment, cliquer sur les flèches dans le bon ordre,…). Il est également possible de créer ses propres niveaux et de les partager à ses amis.",
+      "technoUsed": "L'application est développée en Angular et Fast API",
+      "imageFormat": "paysage",
+      "accroche": "Jeu basé sur des QTE à réaliser dans un temps imparti"
     }
   ]
 }
