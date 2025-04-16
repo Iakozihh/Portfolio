@@ -4,7 +4,7 @@
       "id": 100,
       "name": "Crazyno",
       "description": "Le Crazyno est un projet développé à 4 en méthode Agile. Il contient 6 jeux, des Leaderboards, des succès à réaliser et une gestion de compte admin. Vous pouvez y accéder sur crazyno.games.",
-      "technoUsed": "Le site est développé en HTML/CSS, php et Tailwind CSS. Il dispose d'une base de données SQL.",
+      "technoUsed": ["HTML","CSS","PHP","TailwindCSS","MySQL"],
       "imageFormat": "paysage",
       "accroche": "Crazyno est un site web de Casino avec de la monnaie fictive, il y a 6 jeux et des classements pour battre les records de ses amis."
     },
@@ -12,7 +12,7 @@
       "id": 101,
       "name": "Crazyroad",
       "description": "Crazyroad est inspiré du jeu CrossyRoad. C'est un projet dont l'objectif principal était la qualité de développement et l'intégration continue. Le but est de faire le plus grand score sans se faire écraser par les véhicules.",
-      "technoUsed": "Le jeu est développé en Java.",
+      "technoUsed": ["Java"],
       "imageFormat": "portrait",
       "accroche": "Crazyroad est un jeu où il faut traverser les routes sans se faire écraser par les différents véhicules."
     },
@@ -20,7 +20,7 @@
       "id": 102,
       "name": "Crazymarket",
       "description": "Crazymarket est un site de gestion de listes de courses. On peut creer des listes de courses et les partager afin d'avoir des listes collaboratives. Il y a également une page de statistiques et une gestion Admin (CRUD pour les articles / les catégories, etc...).",
-      "technoUsed": "Le site est développé avec le framework Symfony.",
+      "technoUsed": ["Symfony"],
       "imageFormat": "paysage",
       "accroche": "Crazymarket est un site de gestion de listes de courses collaboratives."
     },
@@ -28,7 +28,7 @@
       "id": 103,
       "name": "ExtranetAT",
       "description": "Projet réalisé en stage au sein de l'entreprise Divy. Il s'agit d'un extranet permettant aux clients d'avoir un suivi de leurs demandes d'assistance et des rapports de suivi associés. L'application est en lien avec un ERP et un CRM et et doit réponds aux contraintes de fonctionnement du flux d'assistance.",
-      "technoUsed": "L'application est développée avec les langages, le Framework de l'éditeur et Typescript. Elle contient une base de données SQL.",
+      "technoUsed": ["L'application est développée avec les langages et le Framework de l'éditeur","Typescript","MySQL"],
       "imageFormat": "paysage",
       "accroche": "Projet de stage, extranet déstiné au support de l'entreprise et à la création de ticket."
     },
@@ -36,7 +36,7 @@
       "id": 104,
       "name": "HotQTE",
       "description": "Hot QTE est un jeu basé sur des Quick Time Event. Chaque niveau est composé de plusieurs QTE (écrire un mot, cliquer sur le piment, cliquer sur les flèches dans le bon ordre,…). Il est également possible de créer ses propres niveaux et de les partager à ses amis.",
-      "technoUsed": "L'application est développée en Angular et Fast API",
+      "technoUsed": ["Angular","FastAPI"],
       "imageFormat": "paysage",
       "accroche": "Jeu basé sur des QTE à réaliser dans un temps imparti"
     }
