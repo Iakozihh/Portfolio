@@ -5,6 +5,7 @@
       <RouterLink class="link max-sm:text-xs" to="/">Accueil</RouterLink>
       <RouterLink class="link max-sm:text-xs" to="/music">Musique</RouterLink>
       <RouterLink class="link max-sm:text-xs" to="/skills">Compétences</RouterLink>
+      <RouterLink class="link max-sm:text-xs" to="/cv">CV</RouterLink>
     </div>
   </nav>
 </template>

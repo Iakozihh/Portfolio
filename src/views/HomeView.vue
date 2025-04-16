@@ -57,7 +57,7 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
       <div class="flex flex-col justify-center items-center my-10 md:ml-24">
         <h2 class="mb-10">Mes études</h2>
         <p class="max-sm:text-xs">
-          J'ai eu mon Bac général mention Très Bien avec les spécialités Mathématiquess et NSI (et
+          J'ai eu mon Bac général mention Très Bien avec les spécialités Mathématiques et NSI (et
           Physique Chimie en première). Je suis ensuite entré au BUT informatique de Lyon 1 afin
           d'apprendre à développer des projets plus conséquents. En 2ème année, j'ai choisis le
           parcours Réalisation d'application et j'ai effectué un stage en tant que développeur au
