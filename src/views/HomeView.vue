@@ -59,10 +59,11 @@ const age = Math.abs(new Date(Date.now() - date.getTime()).getUTCFullYear() - 19
         <p class="max-sm:text-xs">
           J'ai eu mon Bac général mention Très Bien avec les spécialités Mathématiques et NSI (et
           Physique Chimie en première). Je suis ensuite entré au BUT informatique de Lyon 1 afin
-          d'apprendre à développer des projets plus conséquents. En 2ème année, j'ai choisis le
+          d'apprendre à développer des projets plus conséquents. En 2ème année, j'ai choisi le
           parcours Réalisation d'application et j'ai effectué un stage en tant que développeur au
-          sein de l'entreprise DIVY. Ce stage m'a permis de consolider les compétences acquises
-          durant mes études mais également d'en obtenir de nouvelles
+          sein de l'entreprise DIVY. J'ai fait ma 3ème année en alternance dans cette même entreprise. 
+          Cette expérience m'a permis de consolider les compétences acquises
+          durant mes études mais également d'en obtenir de nouvelles.
           <RouterLink class="lienInterne" to="/skills">(voir compétences)</RouterLink>.
         </p>
       </div>
