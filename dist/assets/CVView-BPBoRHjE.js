@@ -1,0 +1,1 @@
+import{o as s,i as o,w as r,j as a,a as e,u as c}from"./index-CWqHDhEn.js";const n="/assets/CV_Neutre-DsS8b9gS.pdf",_={class:"pt-36 mr-4 ml-10"},p=["src"],m={__name:"CVView",setup(l){return(i,u)=>{const t=a("center");return s(),o(t,null,{default:r(()=>[e("div",_,[e("iframe",{width:"1500px",height:"750px",src:c(n)},null,8,p)])]),_:1})}}};export{m as default};

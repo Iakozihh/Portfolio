@@ -18,7 +18,7 @@
     <div class="flex flex-col items-center mt-10 col-span-2">
       <p class="max-sm:text-xs">
         Je fais du saxophone depuis mes 7 ans. Aujourd'hui, je fais partie de deux groupes de
-        musiques : Denise and the Aliens et le Villeur'Brass Band et nous faisons régulièrement des
+        musiques : Denise and the Aliens et le Villeur'Brass Band. Nous faisons régulièrement des
         concerts dans des bars ou à différents évenements comme la soirée d'intégration de Lyon 1 au
         transbordeur ou le FEFAN à Villeurbanne. Nous reprenons des morceaux existants et faisons
         les arrangements nous mêmes. Nous avons également fait des compositions originales.
